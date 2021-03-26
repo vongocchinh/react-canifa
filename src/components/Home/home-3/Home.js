@@ -9,7 +9,7 @@ function Home() {
     <>
       <div id="container-3" className="container-body-there">
         <div className="container">
-          <p className="container-body-there-title">Let's talk about us</p>
+          <p className="container-body-there-title">House designer for the store</p>
           <div className="container-body-there-product-person">
             <Grid item className="root-3">
               <Grid container justify="center" spacing={6}>

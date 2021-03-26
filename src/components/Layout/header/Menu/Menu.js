@@ -7,113 +7,113 @@ function Menu(){
               <ul>
                 <li>
                   <Link to="/" className="active">
-                    HOME
+                    Trang Chủ
                   </Link>
                 </li>
                 <li className="CROSS-BODY">
-                  CROSSBODY
+                  Danh Mục
                   <div className="CROSS-BODY-hover-button">
                     <div className="triangle-up" />
                     <div className="CROSS-BODY-hover-button-column">
                       <p>
-                        <Link to="/user">container-background</Link>
+                        <Link to="/user">Danh Mục Sản Phẩm 1</Link>
                       </p>
                       <p>
-                        <Link to="/user">container-background</Link>
+                        <Link to="/user">Danh Mục Sản Phẩm 1</Link>
                       </p>
                       <p>
-                        <Link to="/user">container-background</Link>
+                        <Link to="/user">Danh Mục Sản Phẩm 1</Link>
                       </p>
                       <p>
-                        <Link to="/user">container-background</Link>
+                        <Link to="/user">Danh Mục Sản Phẩm 1</Link>
                       </p>
                       <p>
-                        <Link to="/user">container-background</Link>
-                      </p>
-                    </div>
-                    <div className="CROSS-BODY-hover-button-column">
-                      <p>
-                        <Link to="/user">container-background</Link>
-                      </p>
-                      <p>
-                        <Link to="/user">container-background</Link>
-                      </p>
-                      <p>
-                        <Link to="/user">container-background</Link>
-                      </p>
-                      <p>
-                        <Link to="/user">container-background</Link>
-                      </p>
-                      <p>
-                        <Link to="/user">container-background</Link>
+                        <Link to="/user">Danh Mục Sản Phẩm 1</Link>
                       </p>
                     </div>
                     <div className="CROSS-BODY-hover-button-column">
                       <p>
-                        <Link to="/user">container-background</Link>
+                        <Link to="/user">Danh Mục Sản Phẩm 1</Link>
                       </p>
                       <p>
-                        <Link to="/user">container-background</Link>
+                        <Link to="/user">Danh Mục Sản Phẩm 1</Link>
                       </p>
                       <p>
-                        <Link to="/user">container-background</Link>
+                        <Link to="/user">Danh Mục Sản Phẩm 1</Link>
+                      </p>
+                      <p>
+                        <Link to="/user">Danh Mục Sản Phẩm 1</Link>
+                      </p>
+                      <p>
+                        <Link to="/user">Danh Mục Sản Phẩm 1</Link>
+                      </p>
+                    </div>
+                    <div className="CROSS-BODY-hover-button-column">
+                      <p>
+                        <Link to="/user">Danh Mục Sản Phẩm 1</Link>
+                      </p>
+                      <p>
+                        <Link to="/user">Danh Mục Sản Phẩm 1</Link>
+                      </p>
+                      <p>
+                        <Link to="/user">Danh Mục Sản Phẩm 1</Link>
                       </p>
                     </div>
                   </div>
                 </li>
                 <li className="CROSS-BODY">
-                  SATCHEL TOTES
+                  Sản Phẩm
                   <div className="CROSS-BODY-hover-button">
                     <div className="triangle-up" />
                     <div className="CROSS-BODY-hover-button-column">
                       <p>
-                        <Link to="/user">container-background</Link>
+                        <Link to="/user">Sản Phẩm Ưa Chuộn 1</Link>
                       </p>
                       <p>
-                        <Link to="/user">container-background</Link>
-                      </p>
-                    </div>
-                    <div className="CROSS-BODY-hover-button-column">
-                      <p>
-                        <Link to="/user">container-background</Link>
-                      </p>
-                      <p>
-                        <Link to="/user">container-background</Link>
-                      </p>
-                      <p>
-                        <Link to="/user">container-background</Link>
-                      </p>
-                      <p>
-                        <Link to="/user">container-background</Link>
-                      </p>
-                      <p>
-                        <Link to="/user">container-background</Link>
+                        <Link to="/user">Sản Phẩm Ưa Chuộn 1</Link>
                       </p>
                     </div>
                     <div className="CROSS-BODY-hover-button-column">
                       <p>
-                        <Link to="/user">container-background</Link>
+                        <Link to="/user">Sản Phẩm Ưa Chuộn 1</Link>
                       </p>
                       <p>
-                        <Link to="/user">container-background</Link>
+                        <Link to="/user">Sản Phẩm Ưa Chuộn 1</Link>
                       </p>
                       <p>
-                        <Link to="/user">container-background</Link>
+                        <Link to="/user">Sản Phẩm Ưa Chuộn 1</Link>
+                      </p>
+                      <p>
+                        <Link to="/user">Sản Phẩm Ưa Chuộn 1</Link>
+                      </p>
+                      <p>
+                        <Link to="/user">Sản Phẩm Ưa Chuộn 1</Link>
+                      </p>
+                    </div>
+                    <div className="CROSS-BODY-hover-button-column">
+                      <p>
+                        <Link to="/user">Sản Phẩm Ưa Chuộn 1</Link>
+                      </p>
+                      <p>
+                        <Link to="/user">Sản Phẩm Ưa Chuộn 1</Link>
+                      </p>
+                      <p>
+                        <Link to="/user">Sản Phẩm Ưa Chuộn 1</Link>
                       </p>
                     </div>
                   </div>
                 </li>
                 <li>
-                  <Link to="/user">BLOG LIST</Link>
+                  <Link to="/user">Yêu Thích</Link>
                 </li>
                 <li>
-                  <Link to="/user">CART</Link>
+                  <Link to="/user">Giỏ Hàng</Link>
                 </li>
                 <li>
-                  <Link to="/user">CHECKOUT</Link>
+                  <Link to="/user">Thanh Toán</Link>
                 </li>
                 <li>
-                  <Link to="/user">CONTACT</Link>
+                  <Link to="/user">Liên Hệ</Link>
                 </li>
               </ul>
             </div>

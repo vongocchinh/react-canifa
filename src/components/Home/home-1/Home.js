@@ -15,7 +15,7 @@ const showData = (data) => {
       <Grid className="product-home" key={key}>
         <div className="layout-product-img">
           <div
-            data-aos="fade-up"
+            data-aos="fade-down"
             data-aos-offset="200"
             data-aos-delay="50"
             data-aos-duration="700"
