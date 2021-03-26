@@ -12,7 +12,8 @@ function Home() {
   });
   const addNotification = () => {
     store.addNotification({
-      message: "react-notifications-component",
+      message: "hello addNotification",
+      width:250,
       type: "info",
       insert: "top",
       container: "bottom-left",

@@ -24,6 +24,7 @@ function Footer() {
   return (
     <>
       <div className="footer-top">
+        <div className="container">
         {onTop ? (
           <div onClick={ClickTop} id="scroll-top" className="scroll-top">
             <div className="container-scroll-top">
@@ -33,7 +34,6 @@ function Footer() {
         ) : (
           ""
         )}
-        <div className="container">
           <div className="container-footer-top-top">
             <input
               type="text"
@@ -52,16 +52,18 @@ function Footer() {
         <div className="container">
           <div className="container-footer-bottom">
             <div className="footer-bottom-column">
-              <div className="footer-bottom-row-contact">
-                <a href="###">Home</a>
-                <a href="###">COMPANY</a>
-                <a href="###">TEAM</a>
-                <a href="###">BLOG</a>
-                <a href="###">CONTACT</a>
-                <a href="###">PORTFOLIO</a>
-              </div>
-              <div className="footer-bottom-row-contact-bottom">
-                <p>© 2021, made with by Creative Tim</p>
+              <div className="footer-bottom-column-2">
+                <div className="footer-bottom-row-contact">
+                  <a href="###">Home</a>
+                  <a href="###">COMPANY</a>
+                  <a href="###">TEAM</a>
+                  <a href="###">BLOG</a>
+                  <a href="###">CONTACT</a>
+                  <a href="###">PORTFOLIO</a>
+                </div>
+                <div className="footer-bottom-row-contact-bottom">
+                  <p>© 2021, made with by Creative Tim</p>
+                </div>
               </div>
             </div>
             <div className="footer-bottom-column">
