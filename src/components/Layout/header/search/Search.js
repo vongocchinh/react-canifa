@@ -51,15 +51,6 @@ function Search(){
                         <div>
                           <Link to="/user">Danh Muc Menu 1</Link>
                         </div>
-                        <div>
-                          <Link to="/user">Danh Muc Menu 1</Link>
-                        </div>
-                        <div>
-                          <Link to="/user">Danh Muc Menu 1</Link>
-                        </div>
-                        <div>
-                          <Link to="/user">Danh Muc Menu 1</Link>
-                        </div>
                       </div>
                     ) : (
                       ""

@@ -23,7 +23,7 @@ function OptionUser() {
               <CheckCircleOutlineIcon className="icon-option-header" />
               <div className="my-text">CheckOut</div>
             </Link>
-            <Link to="/user">
+            <Link to="/login">
               <PersonIcon className="icon-option-header" />
               <div className="my-text">Login</div>
             </Link>

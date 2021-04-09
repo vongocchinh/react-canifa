@@ -100,6 +100,7 @@ function Header() {
               <div className="icon-row-header-bottom-single">
                 <OptionUser />
                 <OptionCart />
+
               </div>
             </div>
           </div>

@@ -1,17 +1,11 @@
 import React from 'react';
-import {db} from './../../config/firebase';
-import { useEffect } from 'react';
+// import {db} from './../../config/firebase';
+// import { useEffect } from 'react';
+import UserComponent from './../../components/User/user/User';
 function User(){
-    useEffect(() => {
-       db.collection("users").get().then((querySnapshot)=>{
-        querySnapshot.forEach((doc)=>{
-               console.log(doc.data());
-           })
-       })
-    })
     return (
         <>
-        hello
+            <UserComponent/>
         </>
     )
 }

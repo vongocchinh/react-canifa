@@ -5,12 +5,14 @@
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
     "animate.css": "^4.1.1",
     "aos": "^3.0.0-beta.6",
     "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
     "clsx": "^1.1.1",
     "firebase": "^8.3.1",
     "framer-motion": "^4.0.3",
@@ -18,9 +20,11 @@
     "node-sass": "^5.0.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",
     "react-hook-form": "^6.15.5",
     "react-notifications-component": "^3.0.4",
+    "react-rating-stars-component": "^2.2.0",
     "react-redux": "^7.2.3",
     "react-redux-firebase": "^3.10.0",
     "react-responsive": "^8.2.0",
@@ -44,7 +48,7 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start": "set PORT=3006 && react-scripts start",
+    "start": "set PORT=3100 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

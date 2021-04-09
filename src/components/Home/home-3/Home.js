@@ -1,10 +1,8 @@
 import React from "react";
 import "./styles.scss";
 import Grid from "@material-ui/core/Grid";
-import Product from "./../../../asset/product/13-405x516.png";
 var data = [{ id: "1" }, { id: "2" }, { id: "3" }];
 function Home() {
-  // const [selectedId, setSelectedId] = useState(null);
   return (
     <>
       <div id="container-3" className="container-body-there">
@@ -36,7 +34,7 @@ const showData = (data) => {
               data-aos-easing="ease-in-out"
               className="container-body-img-product-user"
             >
-              <img alt="###" src={Product} />
+              <img alt="###" src={"https://s3.amazonaws.com/creativetim_bucket/photos/125268/thumb.jpeg?1497799215"} />
             </div>
           </div>
           <div className="container-body-there-product-row-top-bottom">

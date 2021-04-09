@@ -1,0 +1,147 @@
+.container-password{
+    width: 100%;
+    height: auto;
+    display: flex;
+    // border: 1px solid  rgb(197, 190, 190);
+    padding-left: 30px;
+    border-radius: 5px;
+    p{
+        font-size: 13px;
+        color: #8c9196;
+    }
+    .input-form-password{
+        margin: 7px;
+        width: 300px;
+        height: 32px;
+        border-radius: 10px;
+        outline: none;
+        border: 1px solid  #2388db;
+        color: black;
+        padding-left: 15px;
+        font-size: 13px;
+    }
+    .input-form-password::placeholder{
+        font-size: 13px;
+        color: #5c5f61;
+    }
+    .sb-form-password{
+        width: 300px;
+        margin: 7px;
+        height: 35px;
+        border-radius: 7px;
+        outline: none;
+        border: none;
+        border: 1px solid  #2388db;
+        color: #2388db;
+        background-color: white;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        &:hover{
+            border: 1px solid  #0b184d;
+            background-color: #0b184d;
+            color: white;
+        }
+    }
+}
+$res_950: "only screen and (max-width: 950px)";
+@mixin responsive_950() {
+	@media #{$res_950} {
+		@content;
+	}
+}
+@include responsive_950(){
+    .container-password{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-bottom: 20px;
+    }
+}
+$res_550: "only screen and (max-width: 400px)";
+@mixin responsive_550() {
+	@media #{$res_550} {
+		@content;
+	}
+}
+@include responsive_950(){
+    .container-password{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-bottom: 20px;
+        padding-left: 0px;
+
+        .container-password-form{
+            width: 90%;
+            height: auto;
+        }
+        .input-form-password{
+            margin-bottom: 10px;
+            width: 100%;
+            height: 35px;
+            border-radius: 10px;
+            outline: none;
+            border: 1px solid  #2388db;
+            color: #2388db;
+            padding-left: 15px;
+            font-size: 13px;
+        }
+        .sb-form-password{
+            width: 100%;
+            margin-bottom: 10px;
+            height: 32px;
+            border-radius: 10px;
+            outline: none;
+            border: none;
+            border: 1px solid  #2388db;
+            color: #2388db;
+            background-color: white;
+            cursor: pointer;
+        }
+    }
+
+}
+
+@include responsive_550(){
+    .container-password{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-bottom: 20px;
+        padding-left: 0px;
+
+        .container-password-form{
+            width: 100%;
+            height: auto;
+        }
+        .input-form-password{
+            margin-bottom: 10px;
+            width: 100%;
+            height: 35px;
+            border-radius: 10px;
+            outline: none;
+            border: 1px solid  #2388db;
+            color: black;
+            padding-left: 15px;
+            font-size: 13px;
+        }
+        .sb-form-password{
+            width: 100%;
+            margin-bottom: 10px;
+            height: 32px;
+            border-radius: 10px;
+            outline: none;
+            border: none;
+            border: 1px solid  #2388db;
+            color: #2388db;
+            background-color: white;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,84 @@
+[
+    {
+        "idProduct":"1",
+        "nameProduct":"MOLLIT ANIM ID EST LABO",
+        "imagesProduct":"https://image.yes24.vn/Upload/catalogcontentbos2019/vanass2019/vat2003-(2).jpg",
+        "ruleProduct":true,
+        "priceProduct":100000,
+        "saleProduct":10,
+        "desProduct":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "brand":"12121",
+        "category":"12121212"
+    },
+    {
+        "idProduct":"1",
+        "nameProduct":"MOLLIT ANIM ID EST LABO",
+        "imagesProduct":"https://vn-test-11.slatic.net/p/e031133bab60fc1806ee3cb6857e465e.jpg_720x720q80.jpg_.webp",
+        "ruleProduct":true,
+        "priceProduct":100000,
+        "saleProduct":10,
+        "desProduct":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "brand":"12121",
+        "category":"12121212"
+    },
+    {
+        "idProduct":"1",
+        "nameProduct":"MOLLIT ANIM ID EST LABO",
+        "imagesProduct":"https://media3.scdn.vn/img3/2019/11_19/I77ay1_simg_de2fe0_500x500_maxb.jpg",
+        "ruleProduct":true,
+        "priceProduct":100000,
+        "saleProduct":10,
+        "desProduct":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "brand":"12121",
+        "category":"12121212"
+    },
+    {
+        "idProduct":"1",
+        "nameProduct":"MOLLIT ANIM ID EST LABO",
+        "imagesProduct":"https://media3.scdn.vn/img4/2020/06_02/0ejq6W3eTB31sZ7xl8tu_simg_de2fe0_500x500_maxb.jpg",
+        "ruleProduct":true,
+        "priceProduct":100000,
+        "saleProduct":10,
+        "desProduct":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "brand":"12121",
+        "category":"12121212",
+        "size":[1,2,3,4,5]
+    },
+    {
+        "idProduct":"1",
+        "nameProduct":"Lui Officia Deserunt",
+        "imagesProduct":"https://media3.scdn.vn/img3/2019/5_9/vu87o5_simg_de2fe0_500x500_maxb.jpg",
+        "ruleProduct":true,
+        "priceProduct":100000,
+        "saleProduct":10,
+        "desProduct":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "brand":"12121",
+        "category":"12121212",
+        "size":[1,2,3,4,5]
+    },
+    {
+        "idProduct":"1",
+        "nameProduct":"Lui Officia Deserunt 2",
+        "imagesProduct":"https://media3.scdn.vn/img4/2020/01_05/J9btOZaNjoqMc6AztxxZ_simg_de2fe0_500x500_maxb.jpg",
+        "ruleProduct":true,
+        "priceProduct":100000,
+        "saleProduct":10,
+        "desProduct":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "brand":"12121",
+        "category":"12121212",
+        "size":[1,2,3,4,5]
+    }
+    ,
+    {
+        "idProduct":"1",
+        "nameProduct":"Lui Officia Deserunt 3",
+        "imagesProduct":"https://media3.scdn.vn/img3/2019/3_14/rYW5xq_simg_de2fe0_500x500_maxb.jpg",
+        "ruleProduct":true,
+        "priceProduct":100000,
+        "saleProduct":10,
+        "desProduct":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "brand":"12121",
+        "category":"12121212",
+        "size":[1,2,3,4,5]
+    }
+]

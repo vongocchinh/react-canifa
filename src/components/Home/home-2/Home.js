@@ -1,9 +1,9 @@
 import React from "react";
 import "./styles.scss";
-import Product from "./../../../asset/product/13-405x516.png";
 import Grid from "@material-ui/core/Grid";
 import { Link } from "react-router-dom";
-var data = [{ id: "1" }, { id: "2" }, { id: "3" }, { id: "4" }];
+import data from "./../home-1/data.json";
+import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 function Home() {
   return (
     <>
@@ -20,9 +20,21 @@ function Home() {
             </p>
           </div>
           <div className="container-body-layout-btn">
-            <a href="#container-3" className="btn-see-detail-body-two">
-              SEE DETAIL
-            </a>
+            <div className="share-button">
+              <span>Share Me</span>
+              <a href="###">
+                <i className="fa fa-facebook"></i>
+              </a>
+              <a href="##">
+                <i className="fa fa-twitter"></i>
+              </a>
+              <a href="##">
+                <i className="fa fa-instagram"></i>
+              </a>
+              <a href="##">
+                <i className="fa fa-linkedin"></i>
+              </a>
+            </div>
           </div>
           <div className="container-product-home container-product-two-home">
             <Grid item className="root">
@@ -32,7 +44,8 @@ function Home() {
             </Grid>
           </div>
           <div className="container-body-layout-btn">
-            <a href="###" className="btn-see-more-body-two">
+            <a href="#container-3" className="btn-see-more-body-two">
+              <ArrowForwardIosIcon className="ArrowForwardIosIcon"/>
               SEE MORES
             </a>
           </div>
@@ -48,20 +61,20 @@ const showData = (data) => {
       <Grid className="product-home" key={key}>
         <div className="layout-product-img">
           <div
-            data-aos="fade-down"
+            data-aos="fade-up-right"
             data-aos-offset="200"
             data-aos-delay="50"
             data-aos-duration="700"
             data-aos-easing="ease-in-out"
             className="layout-product-img-img-home"
           >
-            <img alt="###" src={Product} />
+            <img alt="###" src={value.imagesProduct} />
           </div>
           <div className="product-option-layout">
             <div className="product-hover-option-layout">
               <div className="option-product-home">
                 <div className="option-detail">
-                  <Link to="/user">
+                  <Link to="/product">
                     <i className="fa fa-search" />
                   </Link>
                   <a href="###">
@@ -75,11 +88,11 @@ const showData = (data) => {
             </div>
           </div>
           <div className="product-title-home">
-            <p>Lorem ipsum dolor sit</p>
+            <p>{value.nameProduct}</p>
             <div className="title-quantty-product-home">
-              <p>20.000 $</p>
+              <p>{value.saleProduct} $</p>
               <p>
-                <del>20.000</del> $
+                <del>{value.priceProduct}</del> $
               </p>
             </div>
           </div>

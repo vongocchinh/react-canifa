@@ -107,13 +107,13 @@ function Menu(){
                   <Link to="/user">Yêu Thích</Link>
                 </li>
                 <li>
-                  <Link to="/user">Giỏ Hàng</Link>
+                  <Link to="/cart">Giỏ Hàng</Link>
                 </li>
                 <li>
-                  <Link to="/user">Thanh Toán</Link>
+                  <Link to="/checkout">Thanh Toán</Link>
                 </li>
                 <li>
-                  <Link to="/user">Liên Hệ</Link>
+                  <Link to="/product">Liên Hệ</Link>
                 </li>
               </ul>
             </div>
